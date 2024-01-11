@@ -1,0 +1,134 @@
+body {
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-left {
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.logo-wrap {
+    text-align: center;
+}
+
+.logo {
+    height: 16px;
+}
+
+.nav-right {
+    float: right;
+    padding-right: 15px;
+}
+
+.nav-left a, .nav-right a {
+    padding: 15px;
+    color: #000;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+  
+.ts-menu ul {
+    display: flex;
+    list-style: none;
+}
+  
+.ts-menu a {
+    text-decoration: none;
+}
+
+.dropdown-menu,
+.dropdown-menu2 li,
+.dropdown-menu2 li ul,
+.dropdown-menu2 li ul li,
+.dropdown4 .dropdown-menu4 {
+  display: none;
+  padding: 3px 5px;
+}
+
+.dropdown-menu a,
+.dropdown-menu2 a,
+.dropdown-menu4 a {
+  text-decoration: none;
+}
+
+.dropdown2:hover .dropdown-menu2 li,
+.dropdown2:hover .dropdown-menu2 li ul,
+.dropdown2:hover .dropdown-menu2 li ul li,
+.dropdown4:hover .dropdown-menu4 {
+  display: block;
+}
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu2,
+.dropdown-menu4 {
+  position:absolute;
+  background-color:rgb(48, 43, 43);
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(236, 217, 217);
+  left: 1px;
+  color: darkgrey;
+}
+.dropdown-container:hover .dropdown-menu2,
+.dropdown-container:hover .dropdown-menu4 {
+  display: block;
+}
+  
+.dropdown-menu4 li {
+  padding: 5px 10px;
+}
+
+.dropdown-menu4 li:hover {
+  background-color: rgb(248, 246, 246);
+}
+.dropdown,
+.dropdown-toggle {
+  color: #A0A0A0;
+}
+.dropdown3 a{
+  color: aliceblue;
+  padding: 5px 10px;
+}
+.dropdown3 li:hover {
+  background-color: rgb(248, 251, 251);
+}
+.dropdown-menu4 li a {
+  color: #A0A0A0;
+}
+#mau{
+  background-color:white;
+  box-shadow: 0 0 10px rgb(178, 178, 178);
+}
+.wpb_single_image img {
+  height: auto;
+  max-width: 100%
+}
+
+.wpb_single_image img {
+  height: auto;
+  max-width: 100%
+}
+.header-transparency .nm-header-placeholder {
+    display: none
+}
+.header-transparency .nm-header-placeholder {
+    display: none
+}
+.dropdown3 li:hover{
+  color: #f7f4f4;
+  background-color:rgb(48, 43, 43);
+}
